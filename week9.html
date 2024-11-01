@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Centering the form on the page */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f5f5f5;
+        }
+        
+        #div2 {
+            border: 2px solid black;
+            box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            border-radius: 8px;
+            background-color: white;
+            width: 300px;
+            text-align: left;
+        }
+
+        #div1 {
+            margin-bottom: 15px;
+        }
+
+        h4 {
+            margin: 0;
+        }
+
+        input[type="submit"] {
+            background-color: black;
+            color: white;
+            border-radius: 3px;
+            width: 100%;
+            border: none;
+            font-size: 15px;
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div id="div2">
+        <h4 style="text-align: center;">Sign Up</h4>
+        <div id="div1">
+            Name <br> <input type="text" name="" id="">
+        </div>
+        <div id="div1">
+            Email <br> <input type="email" name="" id="">
+        </div>
+        <div id="div1">
+            Password <br> <input type="password" name="" id="">
+        </div>
+        <div id="div1">
+            Gender <br><select name="" id="" style="width: 170px;">
+                <option value="Select" selected>Select</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Others">Others</option>
+            </select>
+        </div>
+        <div id="div1">
+            <input type="submit" value="Submit">
+        </div>
+    </div>
+</body>
+</html>
